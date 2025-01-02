@@ -12,7 +12,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Şifre Sıfırlama**: Güvenlik sorusu doğrulamasıyla şifre yenileme.
 - **Blokeli Hesap Yönetimi**:
   - 3 hatalı girişten sonra hesap kilitlenir.
-  - Bloklu kullanıcıları listeleme ve blok kaldırma bloklu kullanıcılar `kilitli_kullanicilar` adlı dosyada sakalnır.
+  - Bloklu kullanıcıları listeleme ve blok kaldırma bloklu kullanıcılar `kilitli_kullanicilar.csv` adlı dosyada sakalnır.
 
 ### **Envanter Yönetimi**
 - **Ürün Ekle**: Envantere yeni ürün eklenir.

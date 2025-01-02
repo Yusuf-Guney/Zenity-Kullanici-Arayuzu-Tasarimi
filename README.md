@@ -33,20 +33,16 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 
 ## **Nasıl Kurulur?**
 
-1. Projeyi GitHub'dan klonlayın:
-    ```bash
-    git clone https://github.com/kullanici/ProjeAdi.git
-    cd ProjeAdi
-    ```
+1. Github'da bulunan envanter.sh ve kullanici_giris.sh dosylarını indirin ve bir klasöre koyunuz :
 
 2. Script dosyalarını çalıştırılabilir yapın:
     ```bash
-    chmod +x ana_script.sh user_authentication.sh
+    chmod +x envanter.sh kullanici_giris.sh
     ```
 
-3. Sistemi başlatın:
+3. Sistemi proje dosyalarını yüklediğiniz dizinde başlatın:
     ```bash
-    ./ana_script.sh
+    ./envanter.sh
     ```
 
 ---

@@ -55,7 +55,7 @@ Sistem başlatıldığında ilk olarak giriş ekranıyla karşılaşırsınız:
 ![Giriş Ekranı](images/giris_ekrani.png)
 
 - **Giriş Yap**: Kullanıcı adı ve şire ile giriş yapabilirsiniz.
-- **Kırat Ol**: Yeni bir kullanıcı oluşturabilirsiniz.
+- **Kayıt Ol**: Yeni bir kullanıcı oluşturabilirsiniz.
 - **Şifre Sıfırla**: Güvenlik sorusuyla şifrenizi sıfırlayabilirsiniz.
 
 ---
@@ -98,52 +98,13 @@ ProjeAdi/
 ├── README.md              # Proje dokümanı
 ```
 
----
-
-## **Ekran Görüntüleri**
-
-1. **Giriş Ekranı**:
-   ![Giriş Ekranı](images/giris_ekrani.png)
-
-2. **Envanter Menüsü**:
-   ![Envanter Menüsü](images/envanter_menusu.png)
-
-3. **Kullanıcı Yönetimi**:
-   ![Kullanıcı Yönetimi](images/kullanici_yonetimi.png)
-
-4. **Şifre Sıfırlama**:
-   ![Şifre Sıfırlama](images/sifre_sifirlama.png)
-
----
-
 ## **Video Tanıtım**
 
-Projenin nasıl kullanıldığını anlatan videoya aşağıdaki linkten ulaşabilirsiniz:
+Proje ekran görüntüleri yetmediği durumda arayüzümüzün nasıl kullanıldığını anlatan videoya aşağıdaki linkten ulaşabilirsiniz:
 
 [Proje Tanıtım Videosu](https://example.com/video)
 
 ---
 
-## **Katkıda Bulunma**
-
-1. Bu projeyi forklayın.
-2. Yeni bir dal oluşturun:
-    ```bash
-    git checkout -b yeni-ozellik
-    ```
-3. Değişikliklerinizi yapıp commit edin:
-    ```bash
-    git commit -m "Yeni özellik eklendi"
-    ```
-4. Dalınızı push edin:
-    ```bash
-    git push origin yeni-ozellik
-    ```
-5. Bir Pull Request oluşturun.
-
----
-
-## **Lisans**
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+##Kaynakça##
 

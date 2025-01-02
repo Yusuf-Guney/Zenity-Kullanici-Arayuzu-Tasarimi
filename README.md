@@ -24,7 +24,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Hata Loglama**: Hatalı girişler `log.csv` dosyasında saklanır.
 - **Raporlama**:
   - Belirli tarih aralıklarında envanter hareketleri.
-  - Blokeli hesaplar listesi.
+  - Blokeli hesaplar ve kayıtlı kullanıcılar listesi.
  
 ---
 

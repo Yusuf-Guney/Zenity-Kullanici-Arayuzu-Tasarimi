@@ -75,7 +75,9 @@ Giriş başarılı olduğunda envanter yönetimi ana menüsü karşınıza gelir
 ### **4. Şifre Sıfırlama**
 Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:
 
-![Şifre Sıfırlama](images/sifre_sifirlama.png)
+![Şifre Sıfırlama](images/sifre_sifirlama_menusu_1.png)
+![Şifre Sıfırlama](images/sifre_sifirlama_menusu_2.png)
+![Şifre Sıfırlama](images/sifre_sifirlama_menusu_3.png)
 
 1. Kullanıcı adı girilir.
 2. Güvenlik sorusu doğrulanır.

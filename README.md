@@ -68,19 +68,9 @@ Giriş başarılı olduğunda envanter yönetimi ana menüsü karşınıza gelir
 #### **İşlemler**:
 - Ürün ekleme, listeleme, güncelleme ve silme.
 - Stok analiz raporları.
-
----
-
-### **3. Kullanıcı Yönetimi**
-Yönetici olarak giriş yaptığınızda kullanıcı yönetim işlemlerine erişim sağlayabilirsiniz:
-
-![Kullanıcı Yönetimi](images/kullanici_yonetimi.png)
-
-#### Özellikler:
 - Kullanıcı ekleme, listeleme, güncelleme ve silme.
 - Bloklu kullanıcıları listeleme ve blok kaldırma.
-
----
+-
 
 ### **4. Şifre Sıfırlama**
 Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:

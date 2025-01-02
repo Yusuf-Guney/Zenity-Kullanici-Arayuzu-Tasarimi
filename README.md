@@ -39,7 +39,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 
 3. Sistemi proje dosyalarını yüklediğiniz dizinde başlatın:
     ```bash
-    ./envanter.sh
+    ./Proje_Dosyası/envanter.sh
     ```
 
 ---

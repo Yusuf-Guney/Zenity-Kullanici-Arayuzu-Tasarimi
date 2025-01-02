@@ -79,9 +79,9 @@ Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:
 ![Şifre Sıfırlama](images/sifre_sifirlama_menusu_2.png)
 ![Şifre Sıfırlama](images/sifre_sifirlama_menusu_3.png)
 
-1. Kullanıcı adı girilir.
-2. Güvenlik sorusu doğrulanır.
-3. Yeni bir şire belirlenir.
+- Kullanıcı adı girilir.
+- Güvenlik sorusu doğrulanır.
+- Yeni bir şire belirlenir.
 
 ---
 

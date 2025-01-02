@@ -87,14 +87,14 @@ Projeyi çalıştırmak için `envanter.sh` ve `kullanici_girisi.sh` dosyaların
 
 ```
 ProjeAdi/
-├── envanter.sh          # Ana menü ve sistem dosyaları
-├── kullanici_girisi.sh # Kullanıcı girişi ve şifre sıfırlama
-├── depo.csv               # Ürün bilgileri
-├── kullanici.csv          # Kullanıcı bilgileri
-├── log.csv                # Sistem logları
-├── kilitli_kullanicilar.csv # Kilitli kullanıcılar
-├── images/                # Ekran görüntüleri
-├── README.md              # Proje dokümanı
+├── envanter.sh         
+├── kullanici_girisi.sh 
+├── depo.csv              
+├── kullanici.csv          
+├── log.csv           
+├── kilitli_kullanicilar.csv
+├── images/              
+├── README.md              
 ```
 
 ## **Video Tanıtım**

@@ -108,5 +108,37 @@ Proje ekran görüntüleri yetmediği durumda arayüzümüzün nasıl kullanıld
 
 ---
 
-## **Kaynakça** ##
+## Değerlendirme Soruları
+
+1. **Proje sırasında karşılaştığınız en büyük teknik sorun neydi ve nasıl çözdünüz?**
+   - En büyük sorun, CSV dosyalarıyla veri yönetimiydi. Veri okuma ve yazma işlemleri sırasında format hataları yaşadım, ancak hata kontrolü ve doğru dosya işlemleri ekleyerek çözüme kavuşturdum.
+
+2. **Zenity kullanırken sizi en çok zorlayan kısım hangisiydi?**
+   - Zenity’nin sınırlı bileşenleri ve özelleştirilebilmesi zorluk oluşturdu. Basit arayüzlerle sınırlı kaldım, ancak yinede araştırma yaparak kullanabildiğim bileşenler kullandım.
+
+3. **Bir hatayla karşılaştığınızda bunu çözmek için hangi adımları izlediniz?**
+   - Hata mesajlarını inceledim, hatalı kodu analiz ettim, çevrimiçi kaynakları kontrol ettim ve hatayı izole ederek çözdüm.
+
+4. **Ürün güncelleme fonksiyonunu geliştirirken, bir ürünün adı aynı olsa da farklı bir kategoride olabileceğini fark ettiniz mi? Bunu nasıl çözdünüz?**
+   - Evet, her ürünü benzersiz ID ile tanımladım ve güncelleme işlemi sırasında ürün adı ve kategori kontrolü ekledim.
+
+5. **Eğer bir kullanıcı programı beklenmedik şekilde kapatırsa, veri kaybını önlemek için ne yaptınız?**
+   - Programın her işlem sonrası verileri kaydetmesini sağladım, ayrıca yedekleme işlemleri ile veri kaybını önlemeye çalıştım.
+  
+---
+
+## Kaynakça 
+
+1. **Zenity Kullanıcı Kılavuzu (İngilizce)**  
+   [Zenity Kullanıcı Kılavuzu](https://help.gnome.org/users/zenity/3.32/)  
+   Zenity'nin resmi dökümantasyonu, kullanım ve seçenekler hakkında detaylı bilgiler içerir.
+
+2. **Zenity Örnek Formlar (İngilizce)**  
+   [Zenity Formlar](https://help.gnome.org/users/zenity/stable/forms.html.en)  
+   Zenity ile form oluşturma ve kullanıcı etkileşimi sağlama konusunda örnekler.
+
+3. **Zenity ile Kabuk Programlama (Türkçe)**  
+   [Zenity ile Kabuk Programlama](https://wiki.ubuntu-tr.net/index.php?title=Zenity_ile_kabuk_proglamlama)  
+   Zenity kullanarak kabuk programlamayı öğrenmek için Türkçe kaynak.
+
 

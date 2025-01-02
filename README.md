@@ -70,7 +70,7 @@ Giriş başarılı olduğunda envanter yönetimi ana menüsü karşınıza gelir
 - Stok analiz raporları.
 - Kullanıcı ekleme, listeleme, güncelleme ve silme.
 - Bloklu kullanıcıları listeleme ve blok kaldırma.
--
+- Disk kullanımı, disk yönetimi ve hataları
 
 ### **4. Şifre Sıfırlama**
 Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:
@@ -84,11 +84,12 @@ Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:
 ---
 
 ## **Proje Yapısı**
+Projeyi çalıştırmak için `envanter.sh` ve `kullanici_girisi.sh` dosyalarını indirmemiz yeterli olur prohram çalıştığında diğer dosylara otomatik olarak yüklenecektir proje dizinimizin yapısı aşağıdaki şekildedir
 
 ```
 ProjeAdi/
-├── ana_script.sh          # Ana menü ve sistem dosyaları
-├── user_authentication.sh # Kullanıcı girişi ve şifre sıfırlama
+├── envanter.sh          # Ana menü ve sistem dosyaları
+├── kullanici_girisi.sh # Kullanıcı girişi ve şifre sıfırlama
 ├── depo.csv               # Ürün bilgileri
 ├── kullanici.csv          # Kullanıcı bilgileri
 ├── log.csv                # Sistem logları

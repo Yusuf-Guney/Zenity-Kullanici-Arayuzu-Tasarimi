@@ -1,4 +1,4 @@
-# Kullanıcı ve Envanter Yönetim Sistemi
+# Zenity ile Kullanıcı Yönetim Sistemi
 
 Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve Envanter Yönetim Sistemi**dir. Kullanıcıların giriş yapabileceği, yeni kayıt oluşturabileceği, şifre sıfırlayabileceği ve envanter yönetimi yapabileceği bir sistem sunar. Özellikle blokeli hesap yönetimi ve güvenlik doğrulamaları ile sistemin güvenliği ön plandadır.
 

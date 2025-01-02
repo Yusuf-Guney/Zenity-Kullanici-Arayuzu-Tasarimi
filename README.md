@@ -33,7 +33,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 
 ## **Nasıl Kurulur?**
 
-1. Github'da bulunan envanter.sh ve kullanici_giris.sh dosylarını indirin ve bir klasöre koyunuz :
+1. Github'da bulunan `envanter.sh` ve `kullanici_giris.sh` dosylarını indirin ve bir klasöre koyunuz proje dizininde gözüken diğer dosyaları koymanıza gerek yok zaten onlar sistem çalıştırıldığında otomatik olarak yüklenecektir:
 
 2. Script dosyalarını çalıştırılabilir yapın:
     ```bash

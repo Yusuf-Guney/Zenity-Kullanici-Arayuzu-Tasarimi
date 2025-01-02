@@ -19,9 +19,6 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Ürün Listele**: Mevcut ürünlerin listesi görüntülenir.
 - **Ürün Güncelle**: Envanterdeki bir ürünün bilgileri (stok, fiyat) güncellenir.
 - **Ürün Sil**: Belirtilen bir ürün envanterden kaldırılır.
-- **Stok Analizi**:
-  - Kritik stok seviyesindeki ürünleri raporlama.
-  - Maksimum stoklu ürünleri listeleme.
 
 ### **Loglama ve Raporlama**
 - **Hata Loglama**: Hatalı girişler `log.csv` dosyasında saklanır.

@@ -8,11 +8,11 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 
 ### **Kullanıcı Yönetimi**
 - **Kullanıcı Girişi**: Kullanıcı adı ve şifre ile güvenli giriş.
-- **Yeni Kullanıcı Kaydı**: Yeni bir kullanıcı oluşturma.
+- **Yeni Kullanıcı Kaydı**: Yeni bir kullanıcı oluşturma oluşturulan kullanıcılar `kullanici.csv` dosyasında saklanır.
 - **Şifre Sıfırlama**: Güvenlik sorusu doğrulamasıyla şifre yenileme.
 - **Blokeli Hesap Yönetimi**:
   - 3 hatalı girişten sonra hesap kilitlenir.
-  - Bloklu kullanıcıları listeleme ve blok kaldırma.
+  - Bloklu kullanıcıları listeleme ve blok kaldırma bloklu kullanıcılar `kilitli_kullanicilar` adlı dosyada sakalnır.
 
 ### **Envanter Yönetimi**
 - **Ürün Ekle**: Envantere yeni ürün eklenir.
@@ -28,7 +28,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Raporlama**:
   - Belirli tarih aralıklarında envanter hareketleri.
   - Blokeli hesaplar listesi.
-
+ 
 ---
 
 ## **Nasıl Kurulur?**

@@ -1,6 +1,6 @@
 # Zenity ile Kullanıcı Envanter Yönetim Sistemi
 
-Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve Envanter Yönetim Sistemi**dir. Kullanıcıların giriş yapabileceği, yeni kayıt oluşturabileceği, şifre sıfırlayabileceği ve envanter yönetimi yapabileceği bir sistem sunar. Özellikle blokeli hesap yönetimi ve güvenlik doğrulamaları ile sistemin güvenliği ön plandadır.
+Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve Envanter Yönetim Sistemi**dir. Kullanıcıların giriş yapabileceği, yeni kayıt oluşturabileceği, şifre sıfırlayabileceği ve envanter yönetimi yapabileceği bir sistem sunar.
 
 ---
 
@@ -12,7 +12,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Şifre Sıfırlama**: Güvenlik sorusu doğrulamasıyla şifre yenileme.
 - **Blokeli Hesap Yönetimi**:
   - 3 hatalı girişten sonra hesap kilitlenir.
-  - Bloklu kullanıcıları listeleme ve blok kaldırma bloklu kullanıcılar `kilitli_kullanicilar.csv` adlı dosyada sakalnır.
+  - Bloklu kullanıcıları listeleme ve blok kaldırma bloklu kullanıcılar `kilitli_kullanicilar.csv` adlı dosyada saklanır.
 
 ### **Envanter Yönetimi**
 - **Ürün Ekle**: Envantere yeni ürün eklenir.
@@ -20,7 +20,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 - **Ürün Güncelle**: Envanterdeki bir ürünün bilgileri (stok, fiyat) güncellenir.
 - **Ürün Sil**: Belirtilen bir ürün envanterden kaldırılır.
 
-### **Loglama ve Raporlama**
+### **Hata Loglama ve Raporlama**
 - **Hata Loglama**: Hatalı girişler `log.csv` dosyasında saklanır.
 - **Raporlama**:
   - Belirli tarih aralıklarında envanter hareketleri.
@@ -28,7 +28,7 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
  
 ---
 
-## **Nasıl Kurulur?**
+## **Nasıl Çalıştırılır?**
 
 1. Github'da bulunan `envanter.sh` ve `kullanici_giris.sh` dosylarını indirin ve bir klasöre koyunuz proje dizininde gözüken diğer dosyaları koymanıza gerek yok zaten onlar sistem çalıştırıldığında otomatik olarak yüklenecektir:
 
@@ -47,30 +47,30 @@ Bu proje, Zenity kullanılarak geliştirilmiş kapsamılı bir **Kullanıcı ve 
 ## **Kullanım Talimatları**
 
 ### **1. Giriş Ekranı**
-Sistem başlatıldığında ilk olarak giriş ekranıyla karşılaşırsınız:
+Sistem başlatıldığında ilk olarak giriş ekranıyla karşılaşırsınız.
 
 ![Giriş Ekranı](images/giris_ekrani.png)
 
 - **Giriş Yap**: Kullanıcı adı ve şire ile giriş yapabilirsiniz.
 - **Kayıt Ol**: Yeni bir kullanıcı oluşturabilirsiniz.
-- **Şifre Sıfırla**: Güvenlik sorusuyla şifrenizi sıfırlayabilirsiniz.
+- **Şifre Sıfırla**: Şifrenizi unuttuysanız güvenlik sorusuyla beraber şifreyi sıfırlayabilirsiniz.
 
 ---
 
 ### **2. Envanter Yönetim Menüsü**
-Giriş başarılı olduğunda envanter yönetimi ana menüsü karşınıza gelir:
+Giriş yapıldığında envanter yönetimi ana menüsü karşınıza gelir.
 
 ![Envanter Menüsü](images/envanter_menusu.png)
 
 #### **İşlemler**:
 - Ürün ekleme, listeleme, güncelleme ve silme.
 - Stok analiz raporları.
-- Kullanıcı ekleme, listeleme, güncelleme ve silme.
+- Kullanıcı ekleme, listeleme, ve silme.
 - Bloklu kullanıcıları listeleme ve blok kaldırma.
 - Disk kullanımı, disk yönetimi ve hataları
 
 ### **4. Şifre Sıfırlama**
-Giriş ekranındaki "Şifre Sıfırla" seçeneğiyle şunlar yapılabilir:
+Şifre unutma durumunda şifre sıfırlama işemi aşağıdaki sorular yardımıyla yapılır.
 
 ![Şifre Sıfırlama](images/sifre_sifirlama_menusu_1.png)
 ![Şifre Sıfırlama](images/sifre_sifirlama_menusu_2.png)
@@ -104,23 +104,22 @@ Proje ekran görüntüleri yetmediği durumda arayüzümüzün nasıl kullanıld
 [Proje Tanıtım Videosu](https://example.com/video)
 
 ---
-
 ## Değerlendirme Soruları
 
 1. **Proje sırasında karşılaştığınız en büyük teknik sorun neydi ve nasıl çözdünüz?**
-   - En büyük sorun, CSV dosyalarıyla veri yönetimiydi. Veri okuma ve yazma işlemleri sırasında format hataları yaşadım, ancak hata kontrolü ve doğru dosya işlemleri ekleyerek çözüme kavuşturdum.
+   - Projeyi yaparken yaşadığım en büyük sorunlardan bir tanesi bash scriptini yazarken yaşadığım sözdizimi hatalarıydı projemde mantıksal hatalar olmamasına rağmen fazla ya da eksik boşluk bırakmalardan sürekli hatalar alıyordum bu hataların çoğunu kodu analiz ederek veya bazı çevrim içi kaybnaklar yardımıyla hatalarımı düzelttim.
 
 2. **Zenity kullanırken sizi en çok zorlayan kısım hangisiydi?**
    - Zenity’nin sınırlı bileşenleri ve özelleştirilebilmesi zorluk oluşturdu. Basit arayüzlerle sınırlı kaldım, ancak yinede araştırma yaparak kullanabildiğim bileşenler kullandım.
 
 3. **Bir hatayla karşılaştığınızda bunu çözmek için hangi adımları izlediniz?**
-   - Hata mesajlarını inceledim, hatalı kodu analiz ettim, çevrimiçi kaynakları kontrol ettim ve hatayı izole ederek çözdüm.
+   - Hata mesajlarını `log.csv` dosyasından inceledim, hatalı kodu analiz ettim, çevrimiçi kaynakları kontrol ettim ve hatayı izole ederek çözdüm.
 
 4. **Ürün güncelleme fonksiyonunu geliştirirken, bir ürünün adı aynı olsa da farklı bir kategoride olabileceğini fark ettiniz mi? Bunu nasıl çözdünüz?**
    - Evet, her ürünü benzersiz ID ile tanımladım ve güncelleme işlemi sırasında ürün adı ve kategori kontrolü ekledim.
 
 5. **Eğer bir kullanıcı programı beklenmedik şekilde kapatırsa, veri kaybını önlemek için ne yaptınız?**
-   - Programın her işlem sonrası verileri kaydetmesini sağladım, ayrıca yedekleme işlemleri ile veri kaybını önlemeye çalıştım.
+   - Programın her işlem sonrasında csv dosyalarına verileri kaydederek veri kaybını önledim
   
 ---
 

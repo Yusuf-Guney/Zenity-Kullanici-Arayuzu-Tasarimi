@@ -107,7 +107,7 @@ Proje ekran görüntüleri yetmediği durumda arayüzümüzün nasıl kullanıld
 ## Değerlendirme Soruları
 
 1. **Proje sırasında karşılaştığınız en büyük teknik sorun neydi ve nasıl çözdünüz?**
-   - Projeyi yaparken yaşadığım en büyük sorunlardan bir tanesi bash scriptini yazarken yaşadığım sözdizimi hatalarıydı projemde mantıksal hatalar olmamasına rağmen fazla ya da eksik boşluk bırakmalardan sürekli hatalar alıyordum bu hataların çoğunu kodu analiz ederek veya bazı çevrim içi kaybnaklar yardımıyla hatalarımı düzelttim.
+   - Projeyi yaparken yaşadığım en büyük sorunlardan bir tanesi bash scriptini yazarken yaşadığım sözdizimi hatalarıydı projemde mantıksal hatalar olmamasına rağmen fazla ya da eksik boşluk bırakmalardan sürekli hatalar alıyordum bu hataların çoğunu kodu analiz ederek veya bazı çevrimiçi kaynaklar yardımıyla hatalarımı düzelttim.
 
 2. **Zenity kullanırken sizi en çok zorlayan kısım hangisiydi?**
    - Zenity’nin sınırlı bileşenleri ve özelleştirilebilmesi zorluk oluşturdu. Basit arayüzlerle sınırlı kaldım, ancak yinede araştırma yaparak kullanabildiğim bileşenler kullandım.

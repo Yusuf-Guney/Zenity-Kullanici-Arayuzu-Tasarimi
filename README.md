@@ -101,7 +101,7 @@ ProjeAdi/
 
 Proje ekran görüntüleri yetmediği durumda arayüzümüzün nasıl kullanıldığını anlatan videoya aşağıdaki linkten ulaşabilirsiniz:
 
-[Proje Tanıtım Videosu](https://www.youtube.com/watch?v=qjlra1UUCyQ)
+[Proje Tanıtım Videosu](https://www.youtube.com/watch?v=0ha_jvT9Ggc)
 
 ---
 ## Değerlendirme Soruları
